@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="books.css">
+    <title>My Library</title>
+  </head>
+  <body>
+      <h1>My Library</h1>
+      <div id= "addBook-container">
+        <button id = "add-book" type="button">Add book</button>
+      </div>
+      <div id = 'form-container'>
+        <form id = "form"> 
+          <span class="close">&times;</span>
+          <ledgend>New Book</ledgend>
+          <label for="title">Title:</label>
+          <input type="text" required id="title" name="title" ><br><br>
+          <label for="author">Author:</label>
+          <input type="text" required id="author" name="author" ><br><br>
+          <label for="pages">Pages:</label>
+          <input type="number" required id="pages" name="pages" ><br><br>
+          <label for="read">Read:</label>
+          <input type="checkbox" required id="read" name="read" > <br><br>
+          <button type="button" id = "add" >Add</button>
+        </form>
+      
+      </div>
+      <div id = 'cards-container'></div>
+
+
+    <script src="books.js"></script>
+  </body>
+</html>
